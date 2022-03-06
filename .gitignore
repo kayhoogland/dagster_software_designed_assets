@@ -1,0 +1,8 @@
+.DS_Store
+*.csv
+*.pyc
+*.db
+
+dbt_wow/target/
+dbt_wow/dbt_modules/
+dbt_wow/logs/

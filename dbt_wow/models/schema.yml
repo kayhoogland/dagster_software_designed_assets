@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: entries_per_day
+    description: 'Number of entries per day per avatar'

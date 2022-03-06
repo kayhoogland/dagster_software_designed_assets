@@ -1,0 +1,11 @@
+dbt_sqlite:
+  target: dev
+  outputs:
+    dev:
+      type: sqlite
+      threads: 1
+      database: "database"
+      schema: 'main'
+      schemas_and_paths:
+        main: '/Users/kayhoogland/Projects/personal/orchestrate/data/wow.db'
+      schema_directory: '/Users/kayhoogland/Projects/personal/orchestrate/data'
